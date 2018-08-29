@@ -196,3 +196,35 @@
                 border: none;
                 cursor: pointer;
             }
+
+            /*profile.html*/
+            
+            .myprofile {
+                background-color: #EEE2DC;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .table1,
+            .table2,
+            .table3 {
+                padding: 20px;
+                width: 400px;
+                margin: 0 auto;
+            }
+            
+            table th {
+                background-color: #123C69;
+                color: #EEE2DC;
+                font-size: 1.25em;
+            }
+            
+            table td {
+                font-size: 1.25em;
+                padding: 5px;
+            }
+            
+            th,
+            td {
+                border-bottom: solid#123C69 1px;
+            }
